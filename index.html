@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome Cdn Link -->
+    <script
+      src="https://kit.fontawesome.com/676eaf438a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JQuery Cdn link -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.js"
+      integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+      crossorigin="anonymous"
+    ></script>
+    <!-- AOS Animation css Cdn lin -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="../static/css/style.css" >
+    <title>Travel Blog App</title>
+  </head>
+
+  <body>
+    <div class="main_section">
+      <!-- Navbar & Hero BAckground Image Section -->
+      <div class="bg_image_section">
+        <!-- Navbar Section -->
+        <div class="nav_section">
+          <a href="./index.html" class="logo_link">
+            Travel Blog <i class="fa-solid fa-video"></i>
+          </a>
+          <ul>
+            <li><a href="#" class="nav_link active">Home</a></li>
+            <li><a href="#about" class="nav_link">About Us</a></li>
+            <li><a href="#destini" class="nav_link">Top Destinations</a></li>
+            <li><a href="#blog" class="nav_link">Blogs</a></li>
+            <li><a href="#con" class="nav_link">Contact Us</a></li>
+
+            <a
+              href="https://www.facebook.com/profile.php?id=100050172030571"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="share-button"
+            >
+              <i class="fa-brands fa-facebook fa-bounce fa-2xl"></i>
+            </a>
+
+            <!-- Instagram Share Button with Logo -->
+            <a
+              href="https://instagram.com/speedyboyofficial?igshid=MzMyNGUyNmU2YQ=="
+              target="_blank"
+              rel="noopener noreferrer"
+              class="share-button"
+              ><i class="fa-brands fa-instagram fa-bounce fa-2xl"></i>
+            </a>
+
+            <!-- WhatsApp Share Button with Logo -->
+            <a
+              href="https://wa.me/9789704212"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="share-button"
+            >
+              <i class="fa-brands fa-whatsapp fa-bounce fa-2xl"></i>
+            </a>
+          </ul>
+          <div id="toggleIcon">
+            <i class="fa-solid fa-bars-staggered"></i>
+          </div>
+        </div>
+        <!-- Hero Section -->
+        <div class="hero_section">
+          <div class="text_section">
+            Let's Explore the World, <br />
+            <span>Together</span>
+          </div>
+          <div class="btn_group">
+            <button class="btn bg_btn">Explore More</button>
+            <button class="btn border_btn">Destinations</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- About Us Section -->
+      <div id="about" class="about_section">
+        <div
+          class="image_section"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
+          <img src="../img/bg3.jpg" alt="About Image" class="about_img" />
+        </div>
+        <div
+          class="content_section"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
+          <div class="tag_section">
+            <h6 class="tag_title">About Us</h6>
+            <div class="tag_indicator">
+              <div class="line"></div>
+              <div class="circle"></div>
+            </div>
+          </div>
+          <h6 class="about_title">We Travel to Explore the World !</h6>
+          <p class="about_desc">
+            "Embark on the journey, where each step whispers tales of the
+            unknown. In the dance of distant horizons, find the rhythm of your
+            soul. Through winding roads and open skies, collect memories like
+            precious souvenirs. A traveler is a storyteller of roads less taken,
+            finding home in the embrace of the world."
+          </p>
+          <button class="btn about_btn bg_btn" >
+            <a href="https://en.wikipedia.org/wiki/TravelBlog.org" target="_blank" style="color: #fff;">
+            Know more <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <hr class="divider" />
+
+      <!-- Travel Categories Section -->
+      <div class="travel_categories_section">
+        <div class="tag_section tag_center">
+          <h6 class="tag_title">Our Journey</h6>
+          <div class="tag_indicator">
+            <div class="line"></div>
+            <div class="circle"></div>
+          </div>
+        </div>
+        <h6 class="desc">We travelled the following travel categories</h6>
+        <div class="category_box_section">
+          <div
+            class="category_box"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          >
+            <img src="../img/bg8.jpg" alt="Category Image" class="cat_img" />
+            <div class="cat_title">Road Explore</div>
+          </div>
+          <div
+            class="category_box"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          >
+            <img src="../img/bg9.jpg" alt="Category Image" class="cat_img" />
+            <div class="cat_title">Deep Forests</div>
+          </div>
+          <div
+            class="category_box"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          >
+            <img src="../img/bg10.jpg" alt="Category Image" class="cat_img" />
+            <div class="cat_title">Trips</div>
+          </div>
+          <div
+            class="category_box"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
+            <img src="../img/bg11.jpg" alt="Category Image" class="cat_img" />
+            <div class="cat_title">Water Falls</div>
+          </div>
+          <div
+            class="category_box"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
+            <img src="../img/bg12.jpg" alt="Category Image" class="cat_img" />
+            <div class="cat_title">Hilly Region</div>
+          </div>
+          <div
+            class="category_box"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
+            <img src="../img/bg13.jpg" alt="Category Image" class="cat_img" />
+            <div class="cat_title">Adventure</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Join Community Section -->
+      <div class="join_section">
+        <h6 class="join_title">
+          Join Our Travel Community <br />
+          to Explore with Us.
+        </h6>
+        <button class="btn bg_btn journey_btn">
+          Join Now <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+
+      <!-- Suggested Popular Destination Section -->
+      <div id="destini" class="popular_destination">
+        <div class="tag_section tag_center">
+          <h6 class="tag_title">Destinations</h6>
+          <div class="tag_indicator">
+            <div class="line"></div>
+            <div class="circle"></div>
+          </div>
+        </div>
+        <h6 class="desc">
+          We suggest you to visit these popular destinations.
+        </h6>
+        <div class="destination_section">
+          <div
+            class="destination_box"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
+            <div class="destination_img_box">
+              <img
+                src="../img/bg8.jpg"
+                alt="Destination Image"
+                class="destination_img"
+              />
+              <div class="destination_category">Jungle Safari</div>
+              <div class="destination_detail">
+                <h6 class="destination_title">G-Tech Forest Resort Jungle</h6>
+                <h6 class="destination_duration">
+                  12 days | (11th April - 23 April 2023)
+                </h6>
+                <div class="destination_popular_places">
+                  <div class="tag">River</div>
+                  <div class="tag">Nature</div>
+                  <div class="tag">Jungle</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="destination_box"
+            data-aos="fade-down"
+            data-aos-duration="3000"
+          >
+            <div class="destination_img_box">
+              <img
+                src="../img/bg9.jpg"
+                alt="Destination Image"
+                class="destination_img"
+              />
+              <div class="destination_category">Adventure</div>
+              <div class="destination_detail">
+                <h6 class="destination_title">G-Tech Forest Resort Jungle</h6>
+                <h6 class="destination_duration">
+                  12 days | (11th April - 23 April 2023)
+                </h6>
+                <div class="destination_popular_places">
+                  <div class="tag">River</div>
+                  <div class="tag">Nature</div>
+                  <div class="tag">Jungle</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="destination_box"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <div class="destination_img_box">
+              <img
+                src="../img/bg11.jpg"
+                alt="Destination Image"
+                class="destination_img"
+              />
+              <div class="destination_category">Art & Culture</div>
+              <div class="destination_detail">
+                <h6 class="destination_title">G-Tech Forest Resort Jungle</h6>
+                <h6 class="destination_duration">
+                  12 days | (11th April - 23 April 2023)
+                </h6>
+                <div class="destination_popular_places">
+                  <div class="tag">River</div>
+                  <div class="tag">Nature</div>
+                  <div class="tag">Jungle</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="destination_box"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+          >
+            <div class="destination_img_box">
+              <img
+                src="../img/bg12.jpg"
+                alt="Destination Image"
+                class="destination_img"
+              />
+              <div class="destination_category">Hiking</div>
+              <div class="destination_detail">
+                <h6 class="destination_title">G-Tech Forest Resort Jungle</h6>
+                <h6 class="destination_duration">
+                  12 days | (11th April - 23 April 2023)
+                </h6>
+                <div class="destination_popular_places">
+                  <div class="tag">River</div>
+                  <div class="tag">Nature</div>
+                  <div class="tag">Jungle</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <hr class="divider" />
+
+      <!-- Latest Blog Section -->
+      <div  id="blog" class="blog_section">
+        <div class="tag_section tag_center">
+          <h6 class="tag_title">Our Blogs</h6>
+          <div class="tag_indicator">
+            <div class="line"></div>
+            <div class="circle"></div>
+          </div>
+        </div>
+        <h6 class="desc">Get Travel Guide & Experience via our Blogs.</h6>
+        <div class="blog_section_box">
+          <div class="blog_box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="../img/bg8.jpg" alt="Blog Image" class="blog_img" />
+            <div class="blog_data">
+              <p class="date">
+                <i class="fa-solid fa-calendar-days"></i> &nbsp; 23 April, 2023
+              </p>
+              <h6 class="blog_title">Explore the Deep Forests</h6>
+              <div class="blog_desc">
+                "In the heart of the deep forest, nature's whispers are the only language spoken, echoing the secrets of ancient trees."
+
+"Lost in the labyrinth of emerald leaves, one discovers that solitude in the deep forest is not loneliness but a communion with the wild."
+
+"Amidst the towering trees and the hushed symphony of rustling leaves, the deep forest teaches us the art of silence, and in that quiet, we find our roots."
+
+"Each step into the deep forest is a journey back in time, where the fragrance of moss and the symphony of birds become the portals to an untouched world."
+
+"In the deep forest, shadows play with sunlight, creating a tapestry of secrets that only those who wander with open hearts can unravel."
+              </div>
+              <button class="read_btn">
+                Read more <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="blog_box" data-aos="zoom-in" data-aos-duration="2000">
+            <img src="../img/bg9.jpg" alt="Blog Image" class="blog_img" />
+            <div class="blog_data">
+              <p class="date">
+                <i class="fa-solid fa-calendar-days"></i> &nbsp; 23 April, 2023
+              </p>
+              <h6 class="blog_title">Explore the Beaches</h6>
+              <div class="blog_desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                accusantium impedit quam blanditiis sunt illo, non officia fugit
+                velit tenetur omnis odio repudiandae laborum unde aperiam...
+                
+              </div>
+              <button class="read_btn">
+                Read more <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="blog_box" data-aos="zoom-in" data-aos-duration="3000">
+            <img src="../img/bg10.jpg" alt="Blog Image" class="blog_img" />
+            <div class="blog_data">
+              <p class="date">
+                <i class="fa-solid fa-calendar-days"></i> &nbsp; 23 April, 2023
+              </p>
+              <h6 class="blog_title">Explore the Jungle Safari</h6>
+              <div class="blog_desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                accusantium impedit quam blanditiis sunt illo, non officia fugit
+                velit tenetur omnis odio repudiandae laborum unde aperiam...
+              </div>
+              <button class="read_btn">
+                Read more <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="blog_box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="../img/bg11.jpg" alt="Blog Image" class="blog_img" />
+            <div class="blog_data">
+              <p class="date">
+                <i class="fa-solid fa-calendar-days"></i> &nbsp; 23 April, 2023
+              </p>
+              <h6 class="blog_title">Explore the Jungle Safari</h6>
+              <div class="blog_desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                accusantium impedit quam blanditiis sunt illo, non officia fugit
+                velit tenetur omnis odio repudiandae laborum unde aperiam...
+              </div>
+              <button class="read_btn">
+                Read more <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="blog_box" data-aos="zoom-in" data-aos-duration="2000">
+            <img src="../img/bg12.jpg" alt="Blog Image" class="blog_img" />
+            <div class="blog_data">
+              <p class="date">
+                <i class="fa-solid fa-calendar-days"></i> &nbsp; 23 April, 2023
+              </p>
+              <h6 class="blog_title">Explore the Jungle Safari</h6>
+              <div class="blog_desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                accusantium impedit quam blanditiis sunt illo, non officia fugit
+                velit tenetur omnis odio repudiandae laborum unde aperiam...
+              </div>
+              <button class="read_btn">
+                Read more <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="blog_box" data-aos="zoom-in" data-aos-duration="3000">
+            <img src="../img/bg13.jpg" alt="Blog Image" class="blog_img" />
+            <div class="blog_data">
+              <p class="date">
+                <i class="fa-solid fa-calendar-days"></i> &nbsp; 23 April, 2023
+              </p>
+              <h6 class="blog_title">Explore the Jungle Safari</h6>
+              <div class="blog_desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                accusantium impedit quam blanditiis sunt illo, non officia fugit
+                velit tenetur omnis odio repudiandae laborum unde aperiam...
+              </div>
+              <button class="read_btn">
+                Read more <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Us Section -->
+      <div id="con" class="contact_section">
+        <div class="tag_section tag_center">
+          <h6 class="tag_title">Get in Touch</h6>
+          <div class="tag_indicator">
+            <div class="line"></div>
+            <div class="circle"></div>
+          </div>
+        </div>
+        <h6 class="desc">Feel free to ask, if you have any query.</h6>
+        <div class="contact_box_section">
+          <div
+            class="map_section"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-sine"
+          >
+            <div style="width: 100%">
+              <iframe
+                width="100%"
+                height="600"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6292.352361955728!2d78.39714998693229!3d11.940202499905078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bac7141423245e3%3A0xb8f4bb0994403a0e!2sPallipatti%2C%20Tamil%20Nadu%20636905!5e1!3m2!1sen!2sin!4v1698762989603!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              ></iframe>
+            </div>
+          </div>
+          <div
+            class="form_section"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-sine"
+          >
+            <form>
+              <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" placeholder="xxxxxxxx" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="text" placeholder="yyyyyy@gmail.com" id="email" name="email"><br><br>
+                <input type="submit" value="Submit">
+               
+              </div>
+              <button class="btn bg_btn submit_btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Custom JavaScript link -->
+    <script src="./main.js"></script>
+
+    <!-- AOS JAvascript cdn link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- AOS Initialization -->
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
